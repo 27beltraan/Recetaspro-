@@ -1,0 +1,565 @@
+[
+  {
+    "id": 1,
+    "titulo": "Spaghetti a la Boloñesa",
+    "descripcion": "Pasta italiana con salsa de tomate y carne molida.",
+    "tiempo": "30 min",
+    "ingredientes": [
+      "300 g de spaghetti",
+      "250 g de carne molida",
+      "1 cebolla picada",
+      "2 dientes de ajo",
+      "400 g de tomate triturado",
+      "Sal y pimienta",
+      "Orégano"
+    ],
+    "preparacion": [
+      "Cocinar la pasta según instrucciones.",
+      "Sofreír la cebolla y ajo.",
+      "Agregar la carne y cocinar hasta dorar.",
+      "Añadir tomate y especias.",
+      "Mezclar la pasta con la salsa y servir."
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Ensalada César",
+    "descripcion": "Clásica ensalada con pollo, lechuga y crutones.",
+    "tiempo": "15 min",
+    "ingredientes": [
+      "1 pechuga de pollo",
+      "Lechuga romana",
+      "Crutones",
+      "Queso parmesano",
+      "Aderezo César"
+    ],
+    "preparacion": [
+      "Cocinar y cortar el pollo.",
+      "Lavar y trocear la lechuga.",
+      "Mezclar con crutones y parmesano.",
+      "Agregar aderezo y servir."
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Panqueques Caseros",
+    "descripcion": "Panqueques suaves para desayuno.",
+    "tiempo": "20 min",
+    "ingredientes": [
+      "1 taza de harina",
+      "1 huevo",
+      "1 taza de leche",
+      "1 cucharada de azúcar",
+      "1 cucharadita de mantequilla derretida"
+    ],
+    "preparacion": [
+      "Mezclar todos los ingredientes.",
+      "Calentar sartén y verter mezcla.",
+      "Cocinar por ambos lados.",
+      "Servir con miel o chocolate."
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Pollo al Curry",
+    "descripcion": "Pollo en una sabrosa salsa de curry.",
+    "tiempo": "35 min",
+    "ingredientes": [
+      "2 pechugas de pollo",
+      "1 cebolla",
+      "1 taza de leche de coco",
+      "2 cucharadas de curry",
+      "Sal"
+    ],
+    "preparacion": [
+      "Cortar el pollo en cubos.",
+      "Saltear cebolla.",
+      "Agregar pollo y dorar.",
+      "Añadir curry y leche de coco.",
+      "Cocinar 20 minutos a fuego lento."
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Tacos Mexicanos",
+    "descripcion": "Tortillas rellenas de carne sazonada.",
+    "tiempo": "25 min",
+    "ingredientes": [
+      "Tortillas de maíz",
+      "300 g carne molida",
+      "Cebolla picada",
+      "Especias mexicanas",
+      "Cilantro"
+    ],
+    "preparacion": [
+      "Cocinar carne con cebolla y especias.",
+      "Calentar tortillas.",
+      "Armar los tacos con cilantro fresco."
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Arroz Chaufa",
+    "descripcion": "Arroz frito peruano con pollo.",
+    "tiempo": "20 min",
+    "ingredientes": [
+      "2 tazas arroz cocido",
+      "1 pechuga de pollo",
+      "2 huevos",
+      "Cebollín",
+      "Salsa de soja"
+    ],
+    "preparacion": [
+      "Cocinar pollo en cubos.",
+      "Agregar arroz y mezclar.",
+      "Añadir huevo revuelto.",
+      "Sumar salsa de soja y cebollín."
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "Sushi California",
+    "descripcion": "Roll con palta, pepino y kanikama.",
+    "tiempo": "45 min",
+    "ingredientes": [
+      "Arroz para sushi",
+      "Alga nori",
+      "Palta",
+      "Pepino",
+      "Kanikama"
+    ],
+    "preparacion": [
+      "Preparar el arroz.",
+      "Colocar nori sobre esterilla.",
+      "Agregar relleno y enrollar.",
+      "Cortar y servir."
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "Lasaña de Carne",
+    "descripcion": "Pasta en capas con carne y queso.",
+    "tiempo": "1 hora",
+    "ingredientes": [
+      "Láminas de lasaña",
+      "Carne molida",
+      "Salsa de tomate",
+      "Queso rallado",
+      "Bechamel"
+    ],
+    "preparacion": [
+      "Preparar salsa de carne.",
+      "Intercalar capas de pasta y carne.",
+      "Cubrir con queso.",
+      "Hornear 30-40 min."
+    ]
+  },
+
+  {
+    "id": 9,
+    "titulo": "Hamburguesa Casera",
+    "descripcion": "Carne moldeada con condimentos.",
+    "tiempo": "25 min",
+    "ingredientes": [
+      "Carne molida",
+      "Pan de hamburguesa",
+      "Lechuga",
+      "Tomate",
+      "Queso"
+    ],
+    "preparacion": [
+      "Armar las hamburguesas.",
+      "Cocinarlas en sartén.",
+      "Armar el sándwich."
+    ]
+  },
+
+  {
+    "id": 10,
+    "titulo": "Sopa de Verduras",
+    "descripcion": "Sopa liviana y saludable.",
+    "tiempo": "40 min",
+    "ingredientes": [
+      "Zanahoria",
+      "Papa",
+      "Zapallo",
+      "Apio",
+      "Agua y sal"
+    ],
+    "preparacion": [
+      "Cortar verduras.",
+      "Hervir en agua.",
+      "Salpimentar y servir."
+    ]
+  },
+
+  {
+    "id": 11,
+    "titulo": "Pizza Margarita",
+    "descripcion": "Pizza clásica italiana.",
+    "tiempo": "30 min",
+    "ingredientes": [
+      "Masa de pizza",
+      "Salsa de tomate",
+      "Mozzarella",
+      "Albahaca"
+    ],
+    "preparacion": [
+      "Extender masa.",
+      "Agregar salsa y queso.",
+      "Hornear 15 min."
+    ]
+  },
+
+  {
+    "id": 12,
+    "titulo": "Empanadas de Pino",
+    "descripcion": "Tradición chilena al horno.",
+    "tiempo": "1 hora",
+    "ingredientes": [
+      "Masa de empanadas",
+      "Carne picada",
+      "Cebolla",
+      "Huevo duro",
+      "Aceituna"
+    ],
+    "preparacion": [
+      "Cocinar el pino.",
+      "Armar empanadas.",
+      "Hornear hasta dorar."
+    ]
+  },
+
+  {
+    "id": 13,
+    "titulo": "Ceviche de Pescado",
+    "descripcion": "Plato fresco marinado en limón.",
+    "tiempo": "20 min",
+    "ingredientes": [
+      "Pescado blanco",
+      "Limón",
+      "Cebolla morada",
+      "Cilantro",
+      "Sal"
+    ],
+    "preparacion": [
+      "Cortar pescado.",
+      "Agregar jugo de limón.",
+      "Mezclar con cebolla y cilantro."
+    ]
+  },
+
+  {
+    "id": 14,
+    "titulo": "Fajitas de Pollo",
+    "descripcion": "Pollo salteado con verduras.",
+    "tiempo": "25 min",
+    "ingredientes": [
+      "Pollo",
+      "Pimiento",
+      "Cebolla",
+      "Tortillas de trigo"
+    ],
+    "preparacion": [
+      "Saltear pollo con verduras.",
+      "Calentar tortillas.",
+      "Armar fajitas."
+    ]
+  },
+
+  {
+    "id": 15,
+    "titulo": "Ñoquis con Salsa Alfredo",
+    "descripcion": "Ñoquis suaves y cremosos.",
+    "tiempo": "30 min",
+    "ingredientes": [
+      "Ñoquis",
+      "Crema",
+      "Mantequilla",
+      "Queso parmesano"
+    ],
+    "preparacion": [
+      "Hervir ñoquis.",
+      "Preparar salsa alfredo.",
+      "Mezclar y servir."
+    ]
+  },
+
+  {
+    "id": 16,
+    "titulo": "Budín de Pan",
+    "descripcion": "Postre dulce con pan.",
+    "tiempo": "50 min",
+    "ingredientes": [
+      "Pan duro",
+      "Leche",
+      "Azúcar",
+      "Canela",
+      "Huevo"
+    ],
+    "preparacion": [
+      "Mezclar todo.",
+      "Verter en molde.",
+      "Hornear 40 min."
+    ]
+  },
+
+  {
+    "id": 17,
+    "titulo": "Arepas Venezolanas",
+    "descripcion": "Tortillas de maíz rellenas.",
+    "tiempo": "20 min",
+    "ingredientes": [
+      "Harina de maíz",
+      "Agua",
+      "Sal",
+      "Relleno a gusto"
+    ],
+    "preparacion": [
+      "Formar las arepas.",
+      "Cocinar en sartén.",
+      "Abrir y rellenar."
+    ]
+  },
+
+  {
+    "id": 18,
+    "titulo": "Caldo de Pollo",
+    "descripcion": "Sopa reconfortante.",
+    "tiempo": "1 hora",
+    "ingredientes": [
+      "Pollo",
+      "Zanahoria",
+      "Papa",
+      "Cebolla",
+      "Agua"
+    ],
+    "preparacion": [
+      "Hervir todo.",
+      "Retirar espuma.",
+      "Servir caliente."
+    ]
+  },
+
+  {
+    "id": 19,
+    "titulo": "Tortilla Española",
+    "descripcion": "Clásico de papas y huevo.",
+    "tiempo": "30 min",
+    "ingredientes": [
+      "Papa",
+      "Huevo",
+      "Cebolla",
+      "Sal"
+    ],
+    "preparacion": [
+      "Freír papas.",
+      "Mezclar con huevo.",
+      "Cocinar en sartén."
+    ]
+  },
+
+  {
+    "id": 20,
+    "titulo": "Churrasco Italiano",
+    "descripcion": "Sándwich tradicional chileno.",
+    "tiempo": "15 min",
+    "ingredientes": [
+      "Carne laminada",
+      "Palta",
+      "Tomate",
+      "Mayonesa",
+      "Pan"
+    ],
+    "preparacion": [
+      "Cocinar la carne.",
+      "Armar sándwich.",
+      "Agregar palta y tomate."
+    ]
+  },
+
+  {
+    "id": 21,
+    "titulo": "Galletas con Chips",
+    "descripcion": "Galletas dulces y crujientes.",
+    "tiempo": "12 min",
+    "ingredientes": [
+      "Harina",
+      "Mantequilla",
+      "Azúcar",
+      "Chips de chocolate"
+    ],
+    "preparacion": [
+      "Mezclar masa.",
+      "Formar bolitas.",
+      "Hornear 10-12 min."
+    ]
+  },
+
+  {
+    "id": 22,
+    "titulo": "Ensalada Griega",
+    "descripcion": "Fresca y ligera.",
+    "tiempo": "10 min",
+    "ingredientes": [
+      "Tomate",
+      "Pepino",
+      "Aceitunas",
+      "Cebolla",
+      "Feta"
+    ],
+    "preparacion": [
+      "Cortar vegetales.",
+      "Mezclar.",
+      "Agregar queso y aceite."
+    ]
+  },
+
+  {
+    "id": 23,
+    "titulo": "Salmón al Horno",
+    "descripcion": "Salmón jugoso con hierbas.",
+    "tiempo": "25 min",
+    "ingredientes": [
+      "Filete de salmón",
+      "Limón",
+      "Ajo",
+      "Hierbas"
+    ],
+    "preparacion": [
+      "Sazonar salmón.",
+      "Hornear 20 min.",
+      "Servir con limón."
+    ]
+  },
+
+  {
+    "id": 24,
+    "titulo": "Guiso de Lentejas",
+    "descripcion": "Plato nutritivo casero.",
+    "tiempo": "50 min",
+    "ingredientes": [
+      "Lentejas",
+      "Zanahoria",
+      "Cebolla",
+      "Chorizo",
+      "Sal"
+    ],
+    "preparacion": [
+      "Cocinar lentejas.",
+      "Agregar verduras.",
+      "Añadir chorizo y sal."
+    ]
+  },
+
+  {
+    "id": 25,
+    "titulo": "Tallarines con Pesto",
+    "descripcion": "Pasta con sabor fresco.",
+    "tiempo": "20 min",
+    "ingredientes": [
+      "Pasta",
+      "Albahaca",
+      "Nueces",
+      "Queso parmesano",
+      "Ajo"
+    ],
+    "preparacion": [
+      "Procesar ingredientes.",
+      "Hervir pasta.",
+      "Mezclar con pesto."
+    ]
+  },
+
+  {
+    "id": 26,
+    "titulo": "Hotcakes Americanos",
+    "descripcion": "Esponjosos y deliciosos.",
+    "tiempo": "15 min",
+    "ingredientes": [
+      "Harina",
+      "Huevo",
+      "Leche",
+      "Polvo de hornear"
+    ],
+    "preparacion": [
+      "Mezclar masa.",
+      "Cocinar en sartén.",
+      "Servir con miel."
+    ]
+  },
+
+  {
+    "id": 27,
+    "titulo": "Arroz con Leche",
+    "descripcion": "Postre cremoso tradicional.",
+    "tiempo": "40 min",
+    "ingredientes": [
+      "Arroz",
+      "Leche",
+      "Canela",
+      "Azúcar"
+    ],
+    "preparacion": [
+      "Hervir arroz.",
+      "Añadir leche y azúcar.",
+      "Cocinar hasta espesar."
+    ]
+  },
+
+  {
+    "id": 28,
+    "titulo": "Tostadas Francesas",
+    "descripcion": "Pan dulce dorado al sartén.",
+    "tiempo": "10 min",
+    "ingredientes": [
+      "Pan",
+      "Huevo",
+      "Leche",
+      "Canela"
+    ],
+    "preparacion": [
+      "Mezclar huevo y leche.",
+      "Remojar pan.",
+      "Cocinar en sartén."
+    ]
+  },
+
+  {
+    "id": 29,
+    "titulo": "Sopaipillas Caseras",
+    "descripcion": "Clásicas de zapallo.",
+    "tiempo": "30 min",
+    "ingredientes": [
+      "Harina",
+      "Zapallo",
+      "Sal",
+      "Aceite"
+    ],
+    "preparacion": [
+      "Hacer la masa.",
+      "Freír hasta dorar.",
+      "Servir con pebre o chancaca."
+    ]
+  },
+
+  {
+    "id": 30,
+    "titulo": "Pollo Teriyaki",
+    "descripcion": "Pollo caramelizado en salsa dulce.",
+    "tiempo": "25 min",
+    "ingredientes": [
+      "Pechuga de pollo",
+      "Salsa teriyaki",
+      "Ajo",
+      "Sésamo"
+    ],
+    "preparacion": [
+      "Cortar pollo.",
+      "Saltear y agregar salsa.",
+      "Cocinar hasta reducir."
+    ]
+  }
+]
+
+

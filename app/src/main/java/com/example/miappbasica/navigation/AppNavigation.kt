@@ -1,6 +1,6 @@
 package com.example.miappbasica.navigation
 
-// ===== IMPORTS =====
+
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
@@ -13,8 +13,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
 
-import com.example.miappbasica.ui.screen.*  // LoginScreen, RegistroScreen, InicioScreen, RecipeList, RecipeDetail, AddRecipeScreen, etc.
-
+import com.example.miappbasica.ui.screen.*
 
 @Composable
 fun AppNavigation() {
@@ -26,8 +25,8 @@ fun AppNavigation() {
 
     Scaffold(
         bottomBar = {
-            if (currentRoute !in listOf("login", "registro")) {
 
+            if (currentRoute !in listOf("login", "registro")) {
                 BottomNavBar(navController)
             }
         }
@@ -37,7 +36,7 @@ fun AppNavigation() {
             startDestination = "inicio",
             modifier = Modifier.padding(innerPadding)
         ) {
-            // ===== RUTAS EXISTENTES =====
+
             composable("login") { LoginScreen(navController) }
             composable("registro") { RegistroScreen(navController) }
             composable("inicio") { InicioScreen(navController) }
@@ -46,27 +45,23 @@ fun AppNavigation() {
             composable("configuracion") { ConfiguracionScreen(navController) }
             composable("acerca") { AcercaDeScreen(navController) }
 
-            // ===== RECETAS =====
-            composable("recipe_list") { RecipeList(navController) }
+
+            composable("recetas") { RecetasScreen(navController) }
 
 
             composable(
-                route = "recipe_detail/{name}/{imageUri}",
+                route = "receta_detalle/{id}",
                 arguments = listOf(
-                    navArgument("name") { type = NavType.StringType },
-                    navArgument("imageUri") { type = NavType.StringType; nullable = true }
+                    navArgument("id") { type = NavType.IntType }
                 )
             ) { backStackEntry ->
-                val name = backStackEntry.arguments?.getString("name")
-                val imageUri = backStackEntry.arguments?.getString("imageUri")
-                if (name != null) {
-                    RecipeDetail(recipeName = name, imageUri = imageUri)
+                val id = backStackEntry.arguments?.getInt("id")
+                if (id != null) {
+                    RecetaDetalleScreen(navController = navController, recetaId = id)
                 }
             }
-
-            // Formulario para agregar receta
-            composable("recipe_add") { AddRecipeScreen(navController) }
         }
     }
 }
+
 

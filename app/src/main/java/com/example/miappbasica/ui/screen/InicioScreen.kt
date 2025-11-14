@@ -35,7 +35,7 @@ fun InicioScreen(navController: NavHostController) {
         verticalArrangement = Arrangement.Top
     ) {
 
-        // ===== BOTÓN SUPERIOR DERECHO =====
+
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.End
@@ -50,7 +50,7 @@ fun InicioScreen(navController: NavHostController) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
-        // ===== TÍTULO PRINCIPAL =====
+
         Text(
             text = "Recetas Pro+",
             style = MaterialTheme.typography.headlineLarge.copy(
@@ -66,7 +66,7 @@ fun InicioScreen(navController: NavHostController) {
             style = MaterialTheme.typography.bodyLarge
         )
 
-        // ===== BANNER CON ANIMACIÓN =====
+
         var showBanner by remember { mutableStateOf(false) }
         LaunchedEffect(Unit) { showBanner = true }
 
@@ -78,7 +78,7 @@ fun InicioScreen(navController: NavHostController) {
             exit = fadeOut() + shrinkVertically()
         ) {
             Image(
-                painter = painterResource(id = R.drawable.banner_recetas), // coloca tu imagen en res/drawable
+                painter = painterResource(id = R.drawable.banner_recetas),
                 contentDescription = "Banner de inicio",
                 modifier = Modifier
                     .fillMaxWidth()
@@ -95,7 +95,7 @@ fun InicioScreen(navController: NavHostController) {
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(vertical = 8.dp)
-                .animateContentSize(), // animación suave si cambia contenido
+                .animateContentSize(),
             shape = RoundedCornerShape(12.dp),
             elevation = CardDefaults.cardElevation(defaultElevation = 6.dp)
         ) {
@@ -154,7 +154,7 @@ fun InicioScreen(navController: NavHostController) {
 
         Spacer(modifier = Modifier.height(24.dp))
 
-        // ===== BOTÓN PARA LOGIN =====
+
         Button(
             onClick = { navController.navigate("login") },
             modifier = Modifier
@@ -166,15 +166,18 @@ fun InicioScreen(navController: NavHostController) {
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        // ===== BOTÓN PARA IR A RECETAS =====
+
         Button(
-            onClick = { navController.navigate("recipe_list") },
+            onClick = {
+                navController.navigate("recetas")
+            },
             modifier = Modifier
-                .fillMaxWidth(0.8f)
-                .height(50.dp)
+                .fillMaxWidth()
+                .padding(horizontal = 32.dp)
         ) {
-            Text("Ir a Recetas", style = MaterialTheme.typography.titleMedium)
+            Text("Ir a Recetas")
         }
+
     }
 }
 
